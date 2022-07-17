@@ -1,6 +1,9 @@
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     color: aqua;
   }
+  .table-hover tbody tr:active td, .table-hover tbody tr:active th {
+    color: aqua;
+  }
 
 #hold {
     position: sticky;
