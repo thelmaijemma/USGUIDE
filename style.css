@@ -1,0 +1,17 @@
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    color: aqua;
+  }
+
+#hold {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+}
+
+.truncate {
+    max-width:50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
